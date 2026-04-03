@@ -92,7 +92,7 @@ The server-level credentials are used only during startup discovery. Every actua
 Update docker-compose.yml with your Nextcloud URL and credentials, then run:
 
 ```bash
-docker compose up --build
+docker compose up -d --build
 ```
 
 The server will be available at:
