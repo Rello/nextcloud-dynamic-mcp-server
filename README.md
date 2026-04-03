@@ -89,7 +89,7 @@ The server-level credentials are used only during startup discovery. Every actua
 
 ## How To Start The Server
 
-Update [`docker-compose.yml`](/Users/Rello/Downloads/docker/NcOcsMcpServer/docker-compose.yml) with your Nextcloud URL and credentials, then run:
+Update docker-compose.yml with your Nextcloud URL and credentials, then run:
 
 ```bash
 docker compose up --build
