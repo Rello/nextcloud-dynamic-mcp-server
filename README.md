@@ -1,6 +1,6 @@
-# Nextcloud Dynamic MCP Server
+# Dynamic MCP Server for Nextcloud
 
-This server exposes a live Nextcloud instance as an MCP server.
+This server exposes a live Nextcloud instance as an MCP server - flexibile for all apps installed.
 
 Instead of shipping a fixed tool list, it queries the Nextcloud `ocs_api_viewer` app at startup, reads the OpenAPI descriptions for installed apps, and turns those operations into MCP tools dynamically. The result is an MCP endpoint that reflects the APIs available on the connected Nextcloud instance.
 
